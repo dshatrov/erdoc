@@ -1,0 +1,16 @@
+erext rules:
+
+1. empty lines are not buffered
+2. one line is buffered before each block
+3. blocks:
+	a) /*S ... */
+	b) //S
+		S - "start tag"
+4. start tags:
+	* - regular block
+	< - decl at the left
+	    this blocks includes buffered line as a 'decl' field
+	> - decl at the right
+	    this blocks includes next line as a 'decl' field
+	M - C method-style declaration after this block
+

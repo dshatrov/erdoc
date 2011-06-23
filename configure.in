@@ -1,0 +1,12 @@
+AC_INIT([erdoc], [0.6])
+
+AM_INIT_AUTOMAKE([1.7 gnu])
+
+#AC_SUBST(erdoc_data)
+#erdoc_data=$datarootdir/erdoc
+
+AC_CONFIG_FILES([Makefile
+		 erdoc/Makefile])
+#		 erdoc/erdoc.sh])
+AC_OUTPUT
+

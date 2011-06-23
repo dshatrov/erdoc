@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+    background-color: #ffffff
+}
+
+.header {
+    background-color: #e3f6df;
+    color: #336633;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 1px solid #66aa66;
+}
+
+.linkbar {
+    background-color: #ccebcf;
+    padding: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid #66aa66;
+}
+
+.linkbar a:link    {color: #004400}
+.linkbar a:active  {color: #118811}
+.linkbar a:visited {color: #006600}
+.linkbar a:hover   {color: #118811}
+
+.classes_header {
+    background-color: #ddddff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: large;
+    border-top: 1px solid #aaaaff;
+    border-left: 1px solid #aaaaff;
+    border-right: 1px solid #aaaaff;
+}
+
+.class_name {
+    background-color: #eeeeff;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    border-top: 1px solid #aaaaff;
+    border-left: 1px solid #aaaaff;
+    border-right: 1px solid #aaaaff;
+    font-weight: bold;
+}
+
+.class_name a:link    {color: #0000ff}
+.class_name a:active  {color: #7777ff}
+.class_name a:visited {color: #0000bb}
+.class_name a:hover   {color: #3333ff}
+
+.class_desc {
+    background-color: #f7f7ff;
+    padding: 3px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    border-top: 1px solid #aaaaff;
+    border-right: 1px solid #aaaaff;
+}
+
+.namespace_first {
+    border-top: 1px solid #aaaaff;
+}
+
+.namespace_name {
+    background-color: #fbfbff;
+    padding: 3px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    border-left: 1px solid #aaaaff;
+    border-right: 1px solid #aaaaff;
+}
+
+.methods_header {
+    background-color: #ddddff;
+    color: #222266;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #aaaaff;
+}
+
+.methods_header_title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.right_align {
+    text-align: right;
+}
+
+.method_name {
+    background-color: #f7f7ff;
+    vertical-align: top;
+
+    padding: 4px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+.method_name a:link    {color: #0000bb}
+.method_name a:active  {color: #7777ff}
+.method_name a:visited {color: #0000bb}
+.method_name a:hover   {color: #3333ff}
+
+.method_brief_more {
+    border-top: 1px solid #ddddff;
+}
+
+.global_brief_more {
+    border-top: 1px solid #ddddff;
+}
+
+.global_brief {
+    background-color: #f7f7ff;
+    vertical-align: top;
+    padding: 4px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+.data_brief_more {
+    border-top: 1px solid #aaaaff;
+}
+
+.data_brief_name {
+    background-color: #f7f7ff;
+    color: #0000aa;
+    font-weight: bold;
+    vertical-align: top;
+    width: 70px;
+    padding: 4px;
+    padding-left: 0;
+    padding-right: 1ex;
+    border-right: 1px solid #aaaaff;
+}
+
+.data_brief_desc {
+    background-color: #f7f7ff;
+    vertical-align: top;
+    padding: 4px;
+    padding-left: 1ex;
+    padding-right: 1ex;
+}
+
+.method_desc {
+    background-color: #f7f7ff;
+    vertical-align: top;
+    padding: 4px;
+    padding-left: 0;
+    padding-right: 1ex;
+}
+
+.method_rettype {
+    white-space: nowrap;
+    color: #880000;
+}
+
+.rettype a:link    {color: #aa0000}
+.rettype a:active  {color: #dd4444}
+.rettype a:visited {color: #aa0000}
+.rettype a:hover   {color: #dd4444}
+
+.method_symbol {
+    color: #00aa00;
+    font-weight: bold;
+}
+
+.method_symbol a:link    {color: #0000dd}
+.method_symbol a:active  {color: #7777ff}
+.method_symbol a:visited {color: #0000dd}
+.method_symbol a:hover   {color: #3333ff}
+
+.method_arglist {
+    color: #004400;
+}
+
+.arglist a:link    {color: #007700}
+.arglist a:active  {color: #00aa00}
+.arglist a:visited {color: #007700}
+.arglist a:hover   {color: #00aa00}
+
+.method_title {
+    background-color: #eeeeff;
+    padding: 7px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 1.5em;
+    font-weight: bold;
+    border-top: 1px solid #aaaaff;
+}
+
+.class_decl {
+    background-color: #fffff5;
+    color: #004400;
+    border-bottom: 1px solid #ccccff;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.method_decl {
+    background-color: #fffff5;
+    color: #004400;
+    border: 1px solid #ccccff;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+.code {
+    background-color: #f8fcf8;
+    color: #004400;
+    border: 1px solid #ccddcc;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+}
+
+.arg {
+    margin-left: 2em;
+}
+
+.arg_name {
+    font-style: italic;
+}
+
+.arg_desc {
+    /* TODO Left margin (to separate parameter description from 'name:') */
+}
+
+.classes_spacer {
+    border-top: 1px solid #aaaaff;
+}
+
+.content_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.parents {
+    background-color: #f0fced;
+    border-bottom: 1px solid #b3e2b3;
+    padding-top: 1.2ex;
+    padding-bottom: 0.7ex;
+}
+
+.derivatives {
+    background-color: #f0fced;
+    border-bottom: 1px solid #b3e2b3;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.classes_table {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #aaaaff;
+}
+
+.method_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.methods_div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.methods_table {
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #aaaaff;
+    border-right: 1px solid #aaaaff;
+    border-bottom: 1px solid #aaaaff;
+}
+
+.erl_table {
+    padding: 0;
+    margin:  0;
+    border-right: 1px solid #66aa66;
+    border-top:   1px solid #66aa66;
+}
+
+.erl_table_head {
+    color: #336633;
+    background-color: #e3f6df;
+    font-weight: bold;
+}
+
+.erl_table_row {
+    background-color: #f0fced;
+}
+
+.erl_table_cell {
+    vertical-align: top;
+    padding: 4px;
+    padding-left:  1ex;
+    padding-right: 1ex;
+    border-left:   1px solid #66aa66;
+    border-bottom: 1px solid #66aa66;
+}
+
+.footer {
+    color: #448844;
+    text-align: right;
+    padding: 3px;
+    margin-top: 2em;
+    font-size: small;
+    font-style: italic;
+    border-top: 1px solid #88bb88;
+}
+
+.decl_basic {
+    color: #880000;
+}
+
+.decl_keyword {
+    color: #880000;
+}
+
+.decl_symbol {
+/*    color: #000000;
+    font-weight: bold; */
+}
+
